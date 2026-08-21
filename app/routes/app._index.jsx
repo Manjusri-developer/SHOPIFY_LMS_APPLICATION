@@ -499,7 +499,7 @@ export default function DashboardPage() {
   const navigate = useNavigate();
 
   return (
-    <Page title="Student Dashboard">
+    <Page title="Shopify LMS Hub Admin Dashboard">
       <Layout>
         {/* =========================
             SHOPIFY STORE INFORMATION
@@ -511,6 +511,10 @@ export default function DashboardPage() {
               <Text variant="headingMd" as="h2">
                 Shopify Store Information
               </Text>
+
+              <Text as="p" tone="subdued">
+  Connected store sync details for handling course distribution and enrollment analytics.
+</Text>
 
               <Text as="p">
                 <strong>Store Name:</strong> {shopInfo.name}
@@ -548,6 +552,7 @@ export default function DashboardPage() {
                 <Text variant="heading2xl" as="p">
                   {totalCourses}
                 </Text>
+                <Text variant="bodyXs" tone="subdued">Active course catalogs published</Text>
               </BlockStack>
             </Card>
 
