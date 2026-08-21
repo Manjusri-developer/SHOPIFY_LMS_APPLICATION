@@ -2,7 +2,7 @@
 
 client_id = "7adc239fae91c085418e701a34690356"
 name = "Studentlms"
-application_url = "https://example.com"
+application_url = "https://shopify-lms-application.onrender.com"
 embedded = true
 
 [build]
@@ -25,7 +25,7 @@ api_version = "2026-10"
 scopes = "write_products,write_metaobjects,write_metaobject_definitions"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shopify-lms-application.onrender.com/api/auth" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
